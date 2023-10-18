@@ -48,9 +48,7 @@ app.get("/playlist" , function (req,res) {
 //     res.render("contact" , {startingtitle: "Contact"});
 // })
 
-// app.get("about" , function (req,res) {
-//     res.render("about");
-// })
+
 
 // app.get("/playlist" , function (req,res) {
 //     res.render("playlist");
