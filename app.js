@@ -44,8 +44,6 @@ app.get("/playlist" , function (req,res) {
 //     res.render("contact" , {startingtitle: "Contact"});
 // })
 
-
-
 // app.get("/playlist" , function (req,res) {
 //     res.render("playlist");
 
