@@ -14,6 +14,7 @@ app.get("/" , function (req,res) {
     res.render("home" , {startingtitle: "Home"});
 })
 
+
 app.get("/contact" , function (req,res) {
     res.render("contact" , {startingtitle: "Contact"});
 })
