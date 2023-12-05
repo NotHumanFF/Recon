@@ -19,7 +19,6 @@ app.get("/contact" , function (req,res) {
     res.render("contact" , {startingtitle: "Contact"});
 })
 
-
 app.get("about" , function (req,res) {
     res.render("about");
 })
