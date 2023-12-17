@@ -10,7 +10,6 @@ app.use(express.static("public"));
 
 let startingtitle = "";
 
-
 app.get("/" , function (req,res) {
     res.render("home" , {startingtitle: "Home"});
 })
